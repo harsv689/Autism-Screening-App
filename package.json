@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "lucide-react": "^0.460.0",
+    "react-calendar": "^5.1.0",
+    "recharts": "^2.13.3"
+  }
+}

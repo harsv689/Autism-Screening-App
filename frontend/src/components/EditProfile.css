@@ -1,0 +1,97 @@
+/* Updated background and container styles */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f8d7ff, #c8effe); /* Gradient background */
+}
+
+/* Simplified card container styling */
+.edit-profile-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  padding: 3rem;
+  width: 500px;
+  text-align: left;
+}
+
+/* Title styling similar to Login page */
+.edit-profile-card h2 {
+  color: #333333;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Form styling */
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 400px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+}
+
+.form-group label {
+  color: #5b21b6;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  max-width: 300px;
+}
+
+.form-group input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: border-color 0.2s;
+  width: 400px;
+}
+.profile-image {
+ height: 110px;
+ 
+}
+.form-group input:focus {
+  border-color: #000; /* Darker border color on focus */
+  outline: none;
+}
+
+/* Button styling similar to Login page */
+.submit-button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #333333; /* Slightly lighter on hover */
+}
+
+.error-message,
+.success-message {
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.error-message {
+  background-color: #fdd;
+  color: #a00;
+}
+
+.success-message {
+  background-color: #d4ffd4;
+  color: #080;
+}

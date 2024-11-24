@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #d0e7f9; /* Light Blue Background */
+  color: #333;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(180deg, #9F69B8 0%, #4D8BCC 100%);
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.login-btn {
+  background: #fff;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #e8f5e9;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: hsl(210, 65%, 22%); /* Light Blue Background for Hero */
+  border-bottom: 1px solid #ccc;
+  background-color: ;
+  background-size: cover;
+  background-position: center;
+  height: 6000px;
+}
+
+.hero-content {
+  max-width: 50%;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+.cta-btn {
+  background: rgb(138, 134, 79);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #388e3c;
+}
+
+/* Information Section */
+.info-section {
+  background: #e9f3ff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 2.5rem;
+  color: #2a71d0;
+  margin-bottom: 2rem;
+}
+
+.info-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  max-width: 45%;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-item:hover {
+  transform: scale(1.05); /* Slightly increase the size */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Make the shadow more pronounced */
+}
+
+
+.info-item h3 {
+  font-size: 1.75rem;
+  margin-top: 1rem;
+  color : black;
+}
+
+.info-item p {
+  font-size: 1rem;
+  color: grey;
+  margin-top: 0.5rem;
+  padding: 0 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(180deg, #9F69B8 0%, #4D8BCC 100%);
+  color: #fff;
+}

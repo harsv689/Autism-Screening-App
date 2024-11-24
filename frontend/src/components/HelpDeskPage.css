@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600;700&display=swap');
+
+.help-desk {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.search-bar input::placeholder {
+  color: #d1d5db;
+}
+
+.search-bar button {
+  background-color: #4b5563;
+  border: none;
+  padding: 10px 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #6b7280;
+}
+
+.overview {
+  margin-bottom: 30px;
+}
+
+.overview h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.overview p {
+  line-height: 1.8;
+  font-size: 1.2rem;
+  color: #e5e7eb;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dashboard-section {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.dashboard {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  height: 230px;
+  overflow: hidden;
+}
+
+.dashboard h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.dashboard ul li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #d1d5db;
+}
+
+.dashboard ul ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.dashboard ul ul li {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.directory-section {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  height: fit-content;
+}
+
+.directory {
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #e5e7eb;
+}
+
+.dashboard:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.directory-section:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
